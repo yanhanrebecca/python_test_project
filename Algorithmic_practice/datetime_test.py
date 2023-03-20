@@ -13,6 +13,7 @@ def cal_time(ms):
     dela = datetime.timedelta(milliseconds=1)
     #起始时间加上经过的毫秒
     ms = start + ms * dela
+    #2是占两位，0是不足两位补前导0
     print('%02d:%02d:%02d' % (ms.hour, ms.minute, ms.second))
 
 if __name__ == '__main__':
