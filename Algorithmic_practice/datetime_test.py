@@ -9,7 +9,7 @@
 import datetime
 def cal_time(ms):
     start = datetime.datetime(year=1970, month=1, day=1)
-    #dela是一毫秒
+    #dela是一毫秒,
     dela = datetime.timedelta(milliseconds=1)
     #起始时间加上经过的毫秒
     ms = start + ms * dela
