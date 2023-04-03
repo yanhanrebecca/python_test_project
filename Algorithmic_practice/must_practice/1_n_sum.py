@@ -3,7 +3,7 @@
 共 28 个，他们的和是 574。请问，在 1 到 n 中，所有这样的数的和是多少？
 输入描述:输入一行包含一个整数.eg:40
 输出描述:输出一行，包含一个整数，表示满足条件的数的和。eg:574
-https://www.lanqiao.cn/problems/191/learning/?problem_list_id=6&page=1&sort=students_count
+https://www.lanqiao.cn/problems/191/learning/
 """
 n = int(input())
 sum = 0

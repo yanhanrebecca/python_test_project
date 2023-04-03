@@ -1,5 +1,5 @@
 """
-https://www.lanqiao.cn/problems/172/learning/?problem_list_id=6&page=1&sort=students_count
+https://www.lanqiao.cn/problems/172/learning/
 """
 n = int(input())
 a = list(map(int, input().split()))
