@@ -7,14 +7,17 @@
     59]），SS 表示秒（取值：[0, 59]）。时、分、秒 不足两位时补前导0。例子：13:00:00
 """
 import datetime
+
+
 def cal_time(ms):
     start = datetime.datetime(year=1970, month=1, day=1)
-    #dela是一毫秒,
+    # dela是一毫秒,
     dela = datetime.timedelta(milliseconds=1)
-    #起始时间加上经过的毫秒
+    # 起始时间加上经过的毫秒
     ms = start + ms * dela
-    #2是占两位，0是不足两位补前导0
+    # 2是占两位，0是不足两位补前导0
     print('%02d:%02d:%02d' % (ms.hour, ms.minute, ms.second))
+
 
 if __name__ == '__main__':
     now = int(input())
