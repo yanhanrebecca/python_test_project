@@ -5,6 +5,7 @@
 输出描述:输出一个整数，表示实际得到的饮料数。
 https://www.lanqiao.cn/problems/143/learning/
 """
+
 cap_sum = int(input())
 bottle = cap_sum
 while True:
